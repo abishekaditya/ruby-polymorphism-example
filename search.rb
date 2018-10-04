@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# Simple suffix search to be implemented
+
 DATA = [
   {
     name: 'Cake',

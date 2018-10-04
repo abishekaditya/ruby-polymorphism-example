@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# making the tags filter have a modifier
+
 DATA = [
   {
     name: 'Cake',

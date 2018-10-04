@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# Adding a number tags filter
+
 DATA = [
   {
     name: 'Cake',

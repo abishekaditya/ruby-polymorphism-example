@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# Separating the logic for searches
+
 DATA = [
   {
     name: 'Cake',

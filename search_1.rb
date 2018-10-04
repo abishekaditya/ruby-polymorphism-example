@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# Important filter needs to be added
+
 DATA = [
   {
     name: 'Cake',

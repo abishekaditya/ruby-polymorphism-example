@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+# Removing the hashes
 DATA = [
   {
     name: 'Cake',

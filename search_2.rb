@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+# search might be suffix or description search
+
 DATA = [
   {
     name: 'Cake',
