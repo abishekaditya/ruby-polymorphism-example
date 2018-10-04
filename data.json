@@ -1,0 +1,19 @@
+[{
+    "name": "Cake",
+    "important": true,
+    "desc": "The tastiest snack",
+    "tags": ["flour", "egg", "sugar"]
+  },
+  {
+    "name": "Veggies",
+    "important": true,
+    "desc": "Yucky Stuff",
+    "tags": ["carrot", "beets"]
+  },
+  {
+    "name": "Carrot Cake",
+    "important": false,
+    "desc": "The tastiest snack just got better",
+    "tags": ["flour", "egg", "sugar", "carrot"]
+  }
+]

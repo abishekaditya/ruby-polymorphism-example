@@ -3,26 +3,9 @@
 # THIS ONE IS WHAT WOULD HAPPEN IF THE SEARCH_3 FILE WAS DIRECTLY MODIFIED ONCE
 # WE FOUND OUT ABOUT THE TAG FILTER
 
-DATA = [
-  {
-    name: 'Cake',
-    important: true,
-    desc: 'The tastiest snack',
-    tags: %w[flour egg sugar]
-  },
-  {
-    name: 'Veggies',
-    important: true,
-    desc: 'Yucky Stuff',
-    tags: %w[carrot beets]
-  },
-  {
-    name: 'Carrot Cake',
-    important: false,
-    desc: 'The tastiest snack just got better',
-    tags: %w[flour egg sugar carrot]
-  }
-].freeze
+require_relative './loader.rb'
+DATA = load_data
+
 # search by tag
 class Database
   attr_reader :data

@@ -1,27 +1,9 @@
 #!/usr/bin/env ruby
 
 # Simple suffix search to be implemented
+require_relative './loader.rb'
+DATA = load_data
 
-DATA = [
-  {
-    name: 'Cake',
-    important: true,
-    desc: 'The tastiest snack',
-    tags: %w[flour egg sugar]
-  },
-  {
-    name: 'Veggies',
-    important: true,
-    desc: 'Yucky Stuff',
-    tags: %w[carrot beets]
-  },
-  {
-    name: 'Carrot Cake',
-    important: false,
-    desc: 'The tastiest snack just got better',
-    tags: %w[flour egg sugar carrot]
-  }
-].freeze
 # simple suffix search
 class Database
   attr_reader :data

@@ -2,26 +2,9 @@
 
 # Important filter needs to be added
 
-DATA = [
-  {
-    name: 'Cake',
-    important: true,
-    desc: 'The tastiest snack',
-    tags: %w[flour egg sugar]
-  },
-  {
-    name: 'Veggies',
-    important: true,
-    desc: 'Yucky Stuff',
-    tags: %w[carrot beets]
-  },
-  {
-    name: 'Carrot Cake',
-    important: false,
-    desc: 'The tastiest snack just got better',
-    tags: %w[flour egg sugar carrot]
-  }
-].freeze
+require_relative './loader.rb'
+DATA = load_data
+
 # search with important only
 class Database
   attr_reader :data
