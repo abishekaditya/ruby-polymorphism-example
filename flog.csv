@@ -1,0 +1,40 @@
+search.rb 
+-------------
+ 13.6: flog total 3.4: flog/method average 
+
+search_1.rb 
+-------------
+ 18.0: flog total 4.5: flog/method average 
+
+search_2.rb 
+-------------
+ 22.4: flog total 5.6: flog/method average 
+
+search_3.rb 
+-------------
+ 28.5: flog total 7.1: flog/method average 
+
+search_4.rb 
+-------------
+ 27.2: flog total 4.5: flog/method average 
+
+search_5.rb 
+-------------
+ 28.6: flog total 4.1: flog/method average 
+
+search_6.rb 
+-------------
+ 34.3: flog total 4.3: flog/method average 
+
+search_7.rb 
+-------------
+ 37.5: flog total 9.4: flog/method average 
+
+search_8.rb 
+-------------
+ 31.5: flog total 3.9: flog/method average 
+
+search_9.rb 
+-------------
+ 35.4: flog total 3.9: flog/method average 
+

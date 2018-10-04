@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-# making the tags filter have a modifier
+# making the tags filter have a modifier and changing class methods in search
 
 require_relative './loader.rb'
 DATA = load_data
